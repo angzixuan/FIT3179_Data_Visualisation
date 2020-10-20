@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "projection": {"type": "equirectangular"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/angzixuan/FIT3179_Data_Visualisation/main/Chart_Data/TopoJSON/custom.geo-2.json",
+    "format": {"type": "topojson", "feature": "custom"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.admin",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Active"]
+      }
+    },
+    {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Active Cases",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.admin", "type": "nominal", "title": "Country"},
+      {"field": "Active", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "Reduction of Tourist in Each State between 1st 3 Month of 2019 and 2020",
+  "projection": {"type": "equirectangular"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/angzixuan/FIT3179_Data_Visualisation/main/Chart_Data/TopoJSON/ne_10m_admin_1_states_provinces.json",
+    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+  },
+  "mark": {"type": "geoshape"},
+  "transform": [
+    {"filter": {"field": "properties.admin", "oneOf": ["Australia"]}},
+    {
+      "lookup": "properties.name_en",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/angzixuan/FIT3179_Data_Visualisation/main/Chart_Data/Excel/Australia_Tourist_data.csv"
+        },
+        "key": "State / Territory",
+        "fields": [
+          "Average Changes in Visitor between 2019 and 2020 for 1st 3 month (%) "
+        ]
+      }
+    }
+  ],
+  "encoding": {
+    "color": {
+      "field": "Average Changes in Visitor between 2019 and 2020 for 1st 3 month (%) ",
+      "type": "quantitative",
+      "scale": {"type": "linear"},
+      "title": "Average Changes in Percentage"
+    },
+    "tooltip": [
+      {"field": "properties.name_en", "type": "nominal", "title": "State"},
+      {
+        "field": "Average Changes in Visitor between 2019 and 2020 for 1st 3 month (%) ",
+        "type": "quantitative",
+        "title": "Reduction of Tourist"
+      }
+    ]
+  },
+  "config": {}
+}

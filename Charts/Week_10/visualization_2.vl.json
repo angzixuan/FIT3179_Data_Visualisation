@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": {
+    "text": "Impact of COVID-19 on Local Industry",
+    "fontSize": 20,
+    "fontStyle": "bold",
+    "baseline": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/angzixuan/FIT3179_Data_Visualisation/main/Chart_Data/Excel/Impact_On_Business.csv",
+    "format": {"type": "csv"}
+  },
+  "spacing": 0,
+  "hconcat": [
+    {
+      "selection": {
+        "industry_selection": {
+          "type": "single",
+          "fields": ["Industry"],
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Accommodation and Food Services",
+              "Administrative and Support Services",
+              "Arts and Recreation Services",
+              "Construction",
+              "Education and Training",
+              "Electricity, Gas, Water and Waste Services",
+              "Financial and Insurance Services",
+              "Health Care and Social Assistance",
+              "Information Media and Telecommunications",
+              "Manufacturing",
+              "Mining",
+              "Other Services",
+              "Professional, Scientific and Technical Services",
+              "Rental, Hiring and Real Estate Services",
+              "Retail Trade",
+              "Transport, Postal and Warehousing",
+              "Wholesale Trade"
+            ],
+            "labels": [
+              "Show All",
+              "Accommodation and Food Services",
+              "Administrative and Support Services",
+              "Arts and Recreation Services",
+              "Construction",
+              "Education and Training",
+              "Electricity, Gas, Water and Waste Services",
+              "Financial and Insurance Services",
+              "Health Care and Social Assistance",
+              "Information Media and Telecommunications",
+              "Manufacturing",
+              "Mining",
+              "Other Services",
+              "Professional, Scientific and Technical Services",
+              "Rental, Hiring and Real Estate Services",
+              "Retail Trade",
+              "Transport, Postal and Warehousing",
+              "Wholesale Trade"
+            ],
+            "name": "Continent Selection"
+          }
+        }
+      },
+      "width": 400,
+      "height": 500,
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Industry", "axis": null},
+        "x": {
+          "aggregate": "sum",
+          "field": "Decreased (%)",
+          "title": "Decrease (%)",
+          "axis": {"format": "s"},
+          "sort": "descending"
+        },
+        "color": {
+          "field": "Decreased (%)",
+          "legend": null,
+          "scale": {"range": ["#de2d26"]}
+        },
+        "opacity": {
+          "value": 0.6,
+          "condition": {"selection": "industry_selection", "value": 1}
+        },
+        "tooltip": [
+          {"field": "Industry", "type": "nominal"},
+          {"field": "Decreased (%)", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "title": "Industry",
+      "width": 20,
+      "height": 500,
+      "view": {"stroke": null},
+      "mark": {"type": "text", "align": "center"},
+      "encoding": {
+        "y": {"field": "Industry", "type": "nominal", "axis": null},
+        "text": {"field": "Industry", "type": "nominal"},
+        "opacity": {
+          "value": 0.6,
+          "condition": {"selection": "industry_selection", "value": 1}
+        }
+      }
+    },
+    {
+      "selection": {
+        "industry_selection": {
+          "type": "single",
+          "fields": ["Industry"],
+          "bind": {
+            "input": "select",
+            "options": [null, "Mining"],
+            "labels": ["Show All", "Mining"],
+            "name": "Continent Selection"
+          }
+        }
+      },
+      "width": 400,
+      "height": 500,
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Industry",
+          "type": "nominal",
+          "title": null,
+          "axis": null
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Increased (%)",
+          "title": "Increase (%)",
+          "axis": {"format": "s"}
+        },
+        "opacity": {
+          "value": 0.6,
+          "condition": {"selection": "industry_selection", "value": 1}
+        },
+        "tooltip": [
+          {"field": "Industry", "type": "nominal"},
+          {"field": "Increased (%)", "type": "quantitative"}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}

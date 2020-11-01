@@ -1,4 +1,4 @@
-Country,Year, GDP_growth
+Country,Year,GDP_growth
 ,,
 Afghanistan,2020,-5
 Albania,2020,-7.5
@@ -44,7 +44,7 @@ Costa Rica,2020,-5.5
 Croatia,2020,-9
 Cyprus,2020,-6.4
 Czech Republic,2020,-6.5
-Côte d'Ivoire,2020,1.8
+CÃ´te d'Ivoire,2020,1.8
 Denmark,2020,-4.5
 Djibouti,2020,-1
 Dominica,2020,-8.8
@@ -167,7 +167,7 @@ Suriname,2020,-13.1
 Sweden,2020,-4.7
 Switzerland,2020,-5.3
 Syria,2020,-100
-São Tomé and Príncipe,2020,-6.5
+SÃ£o TomÃ© and PrÃ­ncipe,2020,-6.5
 Taiwan Province of China,2020,0
 Tajikistan,2020,1
 Tanzania,2020,1.9

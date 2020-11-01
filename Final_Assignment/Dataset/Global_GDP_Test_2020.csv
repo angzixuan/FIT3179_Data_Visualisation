@@ -1,0 +1,228 @@
+Country,Year, GDP_growth
+,,
+Afghanistan,2020,-5
+Albania,2020,-7.5
+Algeria,2020,-5.5
+Angola,2020,-4
+Antigua and Barbuda,2020,-17.3
+Argentina,2020,-11.8
+Armenia,2020,-4.5
+Aruba,2020,-19.7
+Australia,2020,-4.2
+Austria,2020,-6.7
+Azerbaijan,2020,-4
+Bahamas,2020,-14.8
+Bahrain,2020,-4.9
+Bangladesh,2020,3.8
+Barbados,2020,-11.6
+Belarus,2020,-3
+Belgium,2020,-8.3
+Belize,2020,-16
+Benin,2020,2
+Bhutan,2020,0.6
+Bolivia,2020,-7.9
+Bosnia and Herzegovina,2020,-6.5
+Botswana,2020,-9.6
+Brazil,2020,-5.8
+Brunei Darussalam,2020,0.1
+Bulgaria,2020,-4
+Burkina Faso,2020,-2
+Burundi,2020,-3.2
+Cabo Verde,2020,-6.8
+Cambodia,2020,-2.8
+Cameroon,2020,-2.8
+Canada,2020,-7.1
+Central African Republic,2020,-1
+Chad,2020,-0.7
+Chile,2020,-6
+China,2020,1.9
+Colombia,2020,-8.2
+Comoros,2020,-1.8
+Democratic Republic of the Congo,2020,-2.2
+Republic of the Congo,2020,-7
+Costa Rica,2020,-5.5
+Croatia,2020,-9
+Cyprus,2020,-6.4
+Czech Republic,2020,-6.5
+Côte d'Ivoire,2020,1.8
+Denmark,2020,-4.5
+Djibouti,2020,-1
+Dominica,2020,-8.8
+Dominican Republic,2020,-6
+Ecuador,2020,-11
+Egypt,2020,3.5
+El Salvador,2020,-9
+Equatorial Guinea,2020,-6
+Eritrea,2020,-0.6
+Estonia,2020,-5.2
+Eswatini,2020,-3.5
+Ethiopia,2020,1.9
+Fiji,2020,-21
+Finland,2020,-4
+France,2020,-9.8
+Gabon,2020,-2.7
+Gambia,2020,-1.8
+Georgia,2020,-5
+Germany,2020,-6
+Ghana,2020,0.9
+Greece,2020,-9.5
+Grenada,2020,-11.8
+Guatemala,2020,-2
+Guinea,2020,1.4
+Guinea-Bissau,2020,-2.9
+Guyana,2020,26.2
+Haiti,2020,-4
+Honduras,2020,-6.6
+Hong Kong SAR,2020,-7.5
+Hungary,2020,-6.1
+Iceland,2020,-7.2
+India,2020,-10.3
+Indonesia,2020,-1.5
+Iran,2020,-5
+Iraq,2020,-12.1
+Ireland,2020,-3
+Israel,2020,-5.9
+Italy,2020,-10.6
+Jamaica,2020,-8.6
+Japan,2020,-5.3
+Jordan,2020,-5
+Kazakhstan,2020,-2.7
+Kenya,2020,1
+Kiribati,2020,-1.1
+South Korea,2020,-1.9
+Kosovo,2020,-7.5
+Kuwait,2020,-8.1
+Kyrgyz Republic,2020,-12
+Lao P.D.R.,2020,0.2
+Latvia,2020,-6
+Lebanon,2020,-25
+Lesotho,2020,-4.8
+Liberia,2020,-3
+Libya,2020,-66.7
+Lithuania,2020,-1.8
+Luxembourg,2020,-5.8
+Macao SAR,2020,-52.3
+Madagascar,2020,-3.2
+Malawi,2020,0.6
+Malaysia,2020,-6
+Maldives,2020,-18.6
+Mali,2020,-2
+Malta,2020,-7.9
+Marshall Islands,2020,-4.5
+Mauritania,2020,-3.2
+Mauritius,2020,-14.2
+Mexico,2020,-9
+Moldova,2020,-4.5
+Mongolia,2020,-2
+Montenegro,2020,-12
+Morocco,2020,-7
+Mozambique,2020,-0.5
+Myanmar,2020,2
+Namibia,2020,-5.9
+Nauru,2020,0.7
+Nepal,2020,0
+Netherlands,2020,-5.4
+New Zealand,2020,-6.1
+Nicaragua,2020,-5.5
+Niger,2020,0.5
+Nigeria,2020,-4.3
+North Macedonia,2020,-5.4
+Norway,2020,-2.8
+Oman,2020,-10
+Pakistan,2020,-0.4
+Palau,2020,-11.4
+Panama,2020,-9
+Papua New Guinea,2020,-3.3
+Paraguay,2020,-4
+Peru,2020,-13.9
+Philippines,2020,-8.3
+Poland,2020,-3.6
+Portugal,2020,-10
+Puerto Rico,2020,-7.5
+Qatar,2020,-4.5
+Romania,2020,-4.8
+Russian Federation,2020,-4.1
+Rwanda,2020,2
+Saint Kitts and Nevis,2020,-18.7
+Saint Lucia,2020,-16.9
+Saint Vincent and the Grenadines,2020,-7
+Samoa,2020,-5
+San Marino,2020,-11
+Saudi Arabia,2020,-5.4
+Senegal,2020,-0.7
+Serbia,2020,-2.5
+Seychelles,2020,-13.8
+Sierra Leone,2020,-3.1
+Singapore,2020,-6
+Slovak Republic,2020,-7.1
+Slovenia,2020,-6.7
+Solomon Islands,2020,-5
+Somalia,2020,-1.5
+South Africa,2020,-8
+South Sudan,2020,4.1
+Spain,2020,-12.8
+Sri Lanka,2020,-4.6
+Sudan,2020,-8.4
+Suriname,2020,-13.1
+Sweden,2020,-4.7
+Switzerland,2020,-5.3
+Syria,2020,-100
+São Tomé and Príncipe,2020,-6.5
+Taiwan Province of China,2020,0
+Tajikistan,2020,1
+Tanzania,2020,1.9
+Thailand,2020,-7.1
+Timor-Leste,2020,-6.8
+Togo,2020,0
+Tonga,2020,-2.5
+Trinidad and Tobago,2020,-5.6
+Tunisia,2020,-7
+Turkey,2020,-5
+Turkmenistan,2020,1.8
+Tuvalu,2020,-0.5
+Uganda,2020,-0.3
+Ukraine,2020,-7.2
+United Arab Emirates,2020,-6.6
+United Kingdom,2020,-9.8
+United States,2020,-4.3
+Uruguay,2020,-4.5
+Uzbekistan,2020,0.7
+Vanuatu,2020,-8.3
+Venezuela,2020,-25
+Vietnam,2020,1.6
+West Bank and Gaza,2020,-12
+Yemen,2020,-5
+Zambia,2020,-4.8
+Zimbabwe,2020,-10.4
+Africa (Region),2020,-2.6
+Asia and Pacific,2020,-2.3
+Australia and New Zealand,2020,-4.4
+Caribbean,2020,-5.4
+Central America,2020,-5.9
+Central Asia and the Caucasus,2020,-4.1
+East Asia,2020,0.3
+Eastern Europe,2020,-4.6
+Europe,2020,-7.2
+Middle East (Region),2020,-6.6
+North Africa,2020,-1.3
+North America,2020,-4.9
+Pacific Islands,2020,-7.1
+South America,2020,-8.1
+South Asia,2020,-8.4
+Southeast Asia,2020,-3.3
+Sub-Saharan Africa (Region),2020,-3.3
+Western Europe,2020,-8.2
+Western Hemisphere (Region),2020,-5.6
+ASEAN-5,2020,-3.4
+Advanced economies,2020,-5.8
+Emerging and Developing Asia,2020,-1.7
+Emerging and Developing Europe,2020,-4.6
+Emerging market and developing economies,2020,-3.3
+Euro area,2020,-8.3
+European Union,2020,-7.6
+Latin America and the Caribbean,2020,-8.1
+Major advanced economies (G7),2020,-5.9
+Middle East and Central Asia,2020,-4.1
+Other advanced economies,2020,-3.8
+Sub-Saharan Africa,2020,-3
+World,2020,-4.4

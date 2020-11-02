@@ -1,10 +1,10 @@
-State,Employed_persons,Employment_to_population_ratio(%),Unemployment_rate(%),Underemployment_rate(%),Population
-New South Wales,4028200,60.7,7.2,10.2,7317500
-Victoria,3224700,58.8,6.7,14.9,5640900
-Queensland,2518000,60.4,7.7,10.7,4599400
-South Australia,843700,58,7.1,11.1,1659800
-Western Australia,1352800,63.2,6.7,9.3,2366900
-Tasmania,252000,56.4,7.6,10.8,511000
-Northern Territory,125500,66.7,4.8,6.4,231200
-Australian Capital Territory,239800,70,3.8,6.7,366900
-Australia,12571900,60.3,6.9,11.4,22693600
+State,Employed_persons,Employment_to_population_ratio(%),Unemployment_rate(%),Underemployment_rate(%),Population,Latitude,Longitude
+New South Wales,4028200,60.7,7.2,10.2,7317500,-31.840233,145.612793
+Victoria,3224700,58.8,6.7,14.9,5640900,-37.0201,144.9646
+Queensland,2518000,60.4,7.7,10.7,4599400,-20.917574,142.702789
+South Australia,843700,58,7.1,11.1,1659800,-30.000233,136.209152
+Western Australia,1352800,63.2,6.7,9.3,2366900,-25.042261,117.793221
+Tasmania,252000,56.4,7.6,10.8,511000,-40.83292234,145.1166613
+Northern Territory,125500,66.7,4.8,6.4,231200,-19.491411,132.550964
+Australian Capital Territory,239800,70,3.8,6.7,366900,-35.3546004,149.2113468
+Australia,12571900,60.3,6.9,11.4,22693600,-25.274398,133.775136

@@ -1,11 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": {
-    "text": "Impact of COVID-19 on Local Industry",
-    "fontSize": 20,
-    "fontStyle": "bold",
-    "baseline": "middle"
-  },
   "data": {
     "url": "https://raw.githubusercontent.com/angzixuan/FIT3179_Data_Visualisation/main/Chart_Data/Excel/Impact_On_Business.csv",
     "format": {"type": "csv"}
